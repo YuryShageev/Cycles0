@@ -20,7 +20,7 @@ public class Main {
 
         //Задача 4
         System.out.println("Task 4");
-        for (float w = 10; w <= 10 && w >= -10; w --) {
+        for (float w = 10; w >= -10; w --) {
             System.out.println("Итерация цикла " + w);
         }
     }
